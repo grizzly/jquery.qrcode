@@ -1,3 +1,16 @@
+/*!
+ * jQuery QR-Code Plugin Library v0.1.0
+ * https://github.com/grizzly/jquery.qrcode
+ *
+ * Copyright 2011-2014 Grizzly GmbH Graz, Austria
+ * http://www.grizzly.cc
+ * 
+ * Released under the MIT license
+ * http://opensource.org/licenses/MIT
+ *
+ * Last update: 2014-01-20
+ */
+
 (function($) {
 	$.fn.qrcode = function(options) {
 		var api_url = 'http://qrcdn.com/';
