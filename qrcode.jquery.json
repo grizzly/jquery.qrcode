@@ -28,6 +28,7 @@
     "homepage": "https://github.com/grizzly/jquery.qrcode/",
     "docs": "https://github.com/grizzly/jquery.qrcode/",
     "download": "https://github.com/grizzly/jquery.qrcode/archive/master.zip",
+    "demo": "https://github.com/grizzly/jquery.qrcode/",
     "dependencies": {
         "jquery": ">=1.5"
     }
