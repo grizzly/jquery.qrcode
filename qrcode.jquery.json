@@ -6,7 +6,7 @@
         "qr",
         "qrcode"
     ],
-    "version": "0.0.1",
+    "version": "0.1.0",
     "author": {
         "name": "Grizzly GmbH",
         "url": "http://grizzly.cct"
@@ -27,7 +27,7 @@
     "bugs": "https://github.com/grizzly/jquery.qrcode/issues",
     "homepage": "https://github.com/grizzly/jquery.qrcode/",
     "docs": "https://github.com/grizzly/jquery.qrcode/",
-    "download": "http://code.jquery.com/#qrcode",
+    "download": "https://github.com/grizzly/jquery.qrcode/archive/master.zip",
     "dependencies": {
         "jquery": ">=1.5"
     }
