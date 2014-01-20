@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width" />
+		<meta name="keywords" content="jquery, plugin, qr, qrcode" />
+		<meta name="description" content="A jQuery plugin to add qr codes to your pages" />
+		<meta name = "owner" content = "Websanova" />
+		<title>jQuery QR-Code :: jQuery QR-Code Plugin</title>
+		<script type="text/javascript" src="http://code.jquery.com/jquery-2.0.2.min.js"></script>
+		<script type="text/javascript" src="jquery.qrcode.js"></script>
+	</head>
+	<body>
+		<div id="content">
+			<div id="test"></div>
+			<script type="text/javascript">
+				$(document).ready(function() {
+					$('#test').qrcode({
+						'url' : 'http://jquery.com',
+						'width' : 300,
+						'height' : 300,
+						'qrsize' : 100
+					});
+				});
+			</script>
+		</div>
+	</body>
+</html>
