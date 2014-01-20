@@ -1,10 +1,7 @@
-jquery.qrcode
-=============
-
 jQuery QR-Code-Plugin
+=====================
 
-Example usage
-=========================================
+## Example usage
 
 ```js
 
@@ -21,12 +18,10 @@ Example usage
 
 This code will add a QR-Code to the div '#test'.
 
-Settings
-=========================================
+## Settings
 
 
-Demo
-=============================================
+## Demo
 
 Will be added shortly.
 
