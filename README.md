@@ -20,6 +20,10 @@ This code will add a QR-Code to the div '#test'.
 
 ## Settings
 
++ `url` _String_ - users will be redirected to this URL when scanning the QR-Code
++ `width` _Integer_ - image width in pixel
++ `height` _Integer_ - image height in pixel
++ `qrsize` _Integer_ - quality of the QR-Code in pixel
 
 ## Demo
 
