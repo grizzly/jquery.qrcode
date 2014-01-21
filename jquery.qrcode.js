@@ -13,7 +13,7 @@
 
 (function($) {
 	$.fn.qrcode = function(options) {
-		var api_url = 'http://qrcdn.com/';
+		var api_url = 'http://jquery.qrcdn.com/';
 		var settings = $.extend({
 			'url' : '',
 			'width' : '100',
@@ -21,7 +21,7 @@
 			'qrsize' : 5
 		}, options);
 		return this.each(function() {
-			$(this).append('<img id="qrcode" width="' + settings['width'] + '" height="' + settings['height'] + '" src="' + api_url + '?o=jqp&type=PNG&size=' + settings['qrsize'] + '&url=' + settings['url'] + '" />');
+			$(this).append('<img id="qrcode" width="' + settings['width'] + '" height="' + settings['height'] + '" src="' + api_url + '?o=jquery&type=PNG&size=' + settings['qrsize'] + '&url=' + settings['url'] + '" />');
 		});
 	};
 })(jQuery);
