@@ -1,5 +1,5 @@
 /*!
- * jQuery QR-Code Plugin Library v0.1.1
+ * jQuery QR-Code Plugin Library v0.1.2
  * https://github.com/grizzly/jquery.qrcode
  *
  * Copyright 2011-2014 Grizzly GmbH Graz, Austria
