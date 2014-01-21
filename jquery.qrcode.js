@@ -1,14 +1,14 @@
 /*!
- * jQuery QR-Code Plugin Library v0.1.0
+ * jQuery QR-Code Plugin Library v0.1.1
  * https://github.com/grizzly/jquery.qrcode
  *
  * Copyright 2011-2014 Grizzly GmbH Graz, Austria
  * http://www.grizzly.cc
- * 
+ *
  * Released under the MIT license
  * http://opensource.org/licenses/MIT
  *
- * Last update: 2014-01-20
+ * Last update: 2014-01-21
  */
 
 (function($) {
@@ -21,7 +21,7 @@
 			'qrsize' : 5
 		}, options);
 		return this.each(function() {
-			$(this).append('<img id="qrcode" width="' + settings['width'] + '" height="' + settings['height'] + '" src="' + api_url + '?o=jquery&type=PNG&size=' + settings['qrsize'] + '&url=' + settings['url'] + '" />');
+			$(this).append('<img id="qrcode" width="' + settings['width'] + '" height="' + settings['height'] + '" src="' + api_url + '?o=jquery&type=PNG&size=' + settings['qrsize'] + '&url=' + encodeURIComponent(settings['url']) + '" />');
 		});
 	};
 })(jQuery);
