@@ -21,7 +21,7 @@
 			'qrsize' : 5
 		}, options);
 		return this.each(function() {
-			$(this).append('<img id="qrcode" width="' + settings['width'] + '" height="' + settings['height'] + '" src="' + api_url + '?type=PNG&size=' + settings['qrsize'] + '&url=' + settings['url'] + '" />');
+			$(this).append('<img id="qrcode" width="' + settings['width'] + '" height="' + settings['height'] + '" src="' + api_url + '?o=jqp&type=PNG&size=' + settings['qrsize'] + '&url=' + settings['url'] + '" />');
 		});
 	};
 })(jQuery);
