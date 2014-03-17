@@ -12,7 +12,17 @@ jQuery QR-Code-Plugin
 			'height' : 300,
 			'qrsize' : 100
 		});
+		
+		// for facebook qr like buttons:
+		
+		$('#like').qrcode({
+			'url' : 'https://www.facebook.com/GrizzlyGmbH',
+			'width' : 300,
+			'height' : 300,
+			'qrsize' : 100
+		});			
 	});
+	
 
 ```
 
