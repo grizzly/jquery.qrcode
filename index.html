@@ -11,7 +11,10 @@
 	</head>
 	<body>
 		<div id="content">
+			<p>Standard QR-Code:</p>
 			<div id="test"></div>
+			<p>FACEBOOK QR-Like Button:</p>
+			<div id="like"></div>
 			<script type="text/javascript">
 				$(document).ready(function() {
 					$('#test').qrcode({
@@ -20,6 +23,12 @@
 						'height' : 300,
 						'qrsize' : 100
 					});
+					$('#like').qrcode({
+						'url' : 'https://www.facebook.com/GrizzlyGmbH',
+						'width' : 300,
+						'height' : 300,
+						'qrsize' : 100
+					});					
 				});
 			</script>
 		</div>
